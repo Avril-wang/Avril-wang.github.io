@@ -1,0 +1,15 @@
+body{
+    background-size: 100%;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 4em;
+}
+
+p {
+    color: gray;
+}
+
