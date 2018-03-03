@@ -12,10 +12,12 @@ h1{
 p{
     text-align: center;
     color: #606060;
+    font: normal 15px "Helvetica Neue", sans-serif;
+    margin-top: 13px;
 }
 
 img{
-    width:300px;
+    width:250px;
 }
 
 img:hover{
@@ -23,10 +25,15 @@ img:hover{
 }
 
 .row{
-    margin-left:10px;
+    margin-left:70px;
 }
 
 .col-md-3{
     margin-top:30px;
-    margin-left: 50px;
+    margin-left: 40px;
+}
+
+.footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
