@@ -1,0 +1,192 @@
+html{
+    height: 100%;
+    background: -webkit-linear-gradient(  rgb(224, 247, 255),rgba(255, 212, 208, 0.267));
+    background: -moz-linear-gradient( rgb(228, 244, 255),rgba(255, 208, 205, 0.404));
+    background: linear-gradient( rgb(237, 248, 255),rgba(255, 209, 206, 0.349));
+}
+
+h1{
+    color: #002176;
+    text-align: center;
+    margin-top: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+svg{
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 100%;
+    height:54%;
+}
+
+path:hover{
+    opacity: 0.7;
+}
+
+polygon:hover{
+    opacity:0.7;
+}
+
+#imageGuqin{
+    display:none;
+    position: absolute;
+    width:75%;
+    top:240px;
+    right:320px;
+    /*animation: imageGuqinMove 3s;*/
+}
+
+#imageMorton{
+    display:none;
+    position: absolute;
+    left:530px;
+    top:290px;
+    width:50%;
+  /*  animation: imageMortonMove 3s;*/
+}
+
+#imagePierre{
+    display:none;
+    position: absolute;
+    left:710px;
+    top:370px;
+    width:45%;
+    /*animation: imagePierreMove 3s;*/
+}
+
+#imagePrintemps{
+    display:none;
+    position: absolute;
+    left:220px;
+    top:239px;
+    width:40%;
+    /*animation: imagePrintempsMove 3s;*/
+}
+
+#imageBeatles{
+    display:none;
+    position: absolute;
+    left:300px;
+    top:250px;
+    width:40%;
+    /*animation: imageBeatlesMove 3s;*/
+}
+
+#imageJohn{
+    display:none;
+    position: absolute;
+    left:220px;
+    top:310px;
+    width:40%;
+    /*animation: imageJohnMove 3s;*/
+    /* animation-play-state:paused; */
+}
+
+/* #svg:hover{
+   animation-play-state: running;
+} */
+
+@keyframes imageJohnMove{
+    from{left:220px;top:950px;
+        display: block;
+        opacity:0.18;}
+    to{left:220px;top:310px;
+        display: block;
+        opacity: 1;}
+}
+
+@keyframes imageBeatlesMove{
+    from{left:300px;top:930px;
+         display: block;
+         opacity: 0.18}
+    to{left:300px;top:250px;
+         display: block;
+         opacity: 1}
+}
+
+@keyframes imagePrintempsMove{
+    from{left:220px;top:660px;
+         display: block;
+         opacity: 0.18}
+    to{left:220px;top:239px;
+         display: block;
+         opacity: 1}
+}
+@keyframes imagePierreMove{
+    from{left:790px;top:760px;
+         display: block;
+         opacity: 0.18}
+    to{left:710px;top:370px;
+         display: block;
+         opacity: 1}
+}
+@keyframes imageMortonMove{
+    from{left:370px;top:759px;
+         display: block;
+         opacity: 0.18}
+    to{left:530px;top:290px;
+         display: block;
+         opacity: 1}
+}
+@keyframes imageGuqinMove{
+    from{right:220px;top:930px;
+         display: block;
+         opacity: 0.18}
+    to{right:320px;top:240px;
+         display: block;
+         opacity: 1}
+}
+
+
+@keyframes imageJohnBack{
+    from{left:220px;top:310px;
+        display: block;
+        opacity:1;}
+    to{left:220px;top:950px;
+        display:block;
+        opacity: 0.18;}
+}
+@keyframes imageBeatlesBack{
+    from{left:300px;top:250px;
+         display: block;
+         opacity: 1}
+    to{left:300px;top:930px;
+         display: block;
+         opacity: 0.18}
+}
+
+@keyframes imagePrintempsBack{
+    from{left:220px;top:239px;
+         display: block;
+         opacity: 1}
+    to{left:220px;top:660px;
+         display: block;
+         opacity: 0.18}
+}
+@keyframes imagePierreBack{
+    from{left:710px;top:370px;
+         display: block;
+         opacity: 1}
+    to{left:790px;top:760px;
+         display: block;
+         opacity: 0.18}
+}
+@keyframes imageMortonBack{
+    from{left:530px;top:290px;
+         display: block;
+         opacity: 1}
+    to{left:370px;top:759px;
+         display: block;
+         opacity: 0.18}
+}
+@keyframes imageGuqinBack{
+    from{right:320px;top:240px;
+         display: block;
+         opacity: 1}
+    to{right:220px;top:930px;
+         display: block;
+         opacity: 0.18}
+}
