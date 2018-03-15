@@ -1,3 +1,39 @@
+body{
+    background-size: 200%;
+}
+
+h1{
+    font: lighter 40px "Helvetica Neue", sans-serif;
+    color: #606060;
+    text-align: center;
+    top: 260px;
+}
+
+h3{
+    font: normal 23px "Helvetica Neue", sans-serif;
+    color: #606060;
+    text-align: center;
+}
+
+h4{
+    font: normal 18px "Helvetica Neue", sans-serif;
+    color: #606060;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #606060;
+    font: normal 15px "Helvetica Neue", sans-serif;
+    margin-top: 13px;
+}
+
 img{
-    width: 200px;
+    display: block;
+    position: middle;
+    width: 300px;
+}
+
+embed{
+    text-align: center;
 }
