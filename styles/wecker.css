@@ -10,13 +10,7 @@ h1{
 }
 
 h3{
-    font: normal 23px "Helvetica Neue", sans-serif;
-    color: #606060;
-    text-align: center;
-}
-
-h4{
-    font: normal 18px "Helvetica Neue", sans-serif;
+    font: normal 30px "helvetica Neue", sans-serif;
     color: #606060;
     text-align: center;
 }
@@ -28,14 +22,17 @@ p{
     margin-top: 13px;
 }
 
-img{
-    display: block;
-    position: middle;
-    width: 300px;
-    margin: 0 auto;
+.row{
+    margin-left:70px;
 }
 
-embed{
+.col-md-3{
+    margin-top:30px;
+    margin-left: 20px;
+}
+
+img{
     display: block;
+    width:280px;
     margin: 0 auto;
 }
