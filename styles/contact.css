@@ -1,18 +1,15 @@
 body{
-    background-size: 200%;
+    background-size: 19%;
+    background-repeat: no-repeat;
+    background-position: 75%, 100%;
 }
+
 
 h1{
     font: lighter 60px "Helvetica Neue", sans-serif;
     color: #606060;
     text-align: center;
     top: 260px;
-}
-
-h3{
-    font: normal 30px "helvetica Neue", sans-serif;
-    color: #606060;
-    text-align: center;
 }
 
 p{
@@ -22,17 +19,29 @@ p{
     margin-top: 13px;
 }
 
+img{
+    width:680px;
+}
+
+.wo{
+   text-align: center;
+}
+
 .row{
     margin-left:70px;
 }
 
 .col-md-3{
     margin-top:30px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
-img{
-    display: block;
-    width:280px;
-    margin: 0 auto;
+.footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+span{
+    margin-bottom: 0px;
+    font-size: 50px;
 }
