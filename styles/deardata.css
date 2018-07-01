@@ -3,11 +3,26 @@ body{
 }
 
 h1{
-    font: lighter 60px "Helvetica Neue", sans-serif;
+    font: lighter 40px "Helvetica Neue", sans-serif;
     color: #606060;
     text-align: center;
     top: 260px;
 }
+
+p{
+    text-align: center;
+    color: #606060;
+    font: normal 13px "Helvetica Neue", sans-serif;
+    margin-top: 10px;
+}
+
+.nav>li>a{
+    color: #5b5b5b;
+  }
+  
+.nav>li>a:hover{
+      color:#1e57c9;
+  }
 
 .row{
     margin-left:70px;

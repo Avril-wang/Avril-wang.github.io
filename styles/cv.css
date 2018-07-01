@@ -6,7 +6,7 @@ body{
 
 
 h1{
-    font: lighter 60px "Helvetica Neue", sans-serif;
+    font: lighter 40px "Helvetica Neue", sans-serif;
     color: #606060;
     text-align: center;
     top: 260px;
@@ -15,56 +15,103 @@ h1{
 p{
     text-align: center;
     color: #606060;
-    font: normal 15px "Helvetica Neue", sans-serif;
-    margin-top: 13px;
+    font: normal 13px "Helvetica Neue", sans-serif;
+    margin-top: 10px;
 }
+
+.fix{
+    text-align: center;
+}
+
 
 img{
-    position: absolute;
-    right: 550px;
-    top: 370px;
-    width:200px;
+    text-align: center;
+    margin-top:48px;
+    width:520px;
 }
 
-img:hover{
-    opacity:0.6;
-}
+.nav>li>a{
+    color: #5b5b5b;
+  }
+  
+.nav>li>a:hover{
+      color:#1e57c9;
+  }
 
 .first{
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top: 400px;
-    right: 550px;
+    top: 22%;
+    right: 20%;
 }
 
 .second{
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top: 600px;
-    right: 400px;
+    top: 44%;
+    right: 20%;
 }
 
 .third{
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top: 300px;
-    right: 700px;
+    top: 40%;
+    left: 18%;
 }
 
 .fourth{
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top: 200px;
-    right: 800px;
+    top: 26%;
+    left: 25%;
 }
 
-.row{
-    margin-left:70px;
+.fas{
+    font-size: 30px;
 }
 
-.col-md-3{
-    margin-top:30px;
-    margin-left: 40px;
+.second:hover+svg{
+    display:block;
+}
+
+.zwei svg{
+    display:none;
+    position: absolute;
+    top: 53%;
+    left: 52%;
+}
+
+.first:hover+svg{
+    display:block;
+}
+
+.erst svg{
+    display:none;
+    position: absolute;
+    top: 33%;
+    left: 52%;
+}
+
+.fourth:hover+svg{
+    display:block;
+}
+
+.vier svg{
+    display:none;
+    position: absolute;
+    top: 34%;
+    right: 45%;
+}
+
+.third:hover+svg{
+    display:block;
+}
+
+.drei svg{
+    display:none;
+    position: absolute;
+    top: 48%;
+    right: 45%;
 }
 
 .footer{
@@ -72,35 +119,35 @@ img:hover{
     margin-bottom: 30px;
 }
 
-@keyframes move{
+/* @keyframes move{
     0%{
         opacity: 0;
-        transform:translateX(30px) translateY(90px);
+        transform:translateX(-100px) translateY(0px);
     }
     10%{
         opacity: 1;
-        transform:translateX(30px) translateY(90px);
+        transform:translateX(-100px) translateY(0px);
     }
     30%{
         opacity: 1;
-        transform: translateX(40px) translateY(100px) ;
+        transform: translateX(-130px) translateY(230px) ;
     }
     60%{
         opacity: 1;
-        transform: translateX(-600px) translateY(-100px) ;
+        transform: translateX(-630px) translateY(0px) ;
     }
     90%{
         opacity: 1;
-        transform: translateX(-450px) translateY(-150px);
+        transform: translateX(-500px) translateY(-150px);
     }
     100%{
         opacity: 0;
-        transform: translateX(-450px) translateY(-150px);
+        transform: translateX(-500px) translateY(-150px);
     }
 }
 
 .avatar{
     animation: move 14s infinite ease-in-out;
-    /* animation-delay: 30s; */
+    animation-delay: 30s; 
     transform-origin:50% 150px;
-}
+} */
