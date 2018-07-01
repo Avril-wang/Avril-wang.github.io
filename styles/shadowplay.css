@@ -28,14 +28,6 @@ p{
     margin-top: 10px;
 }
 
-img{
-    display: block;
-    position: middle;
-    width: 750px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
 .nav>li>a{
     color: #5b5b5b;
   }
@@ -44,23 +36,17 @@ img{
       color:#1e57c9;
   }
 
-embed{
-    display: block;
-    margin: 0 auto;
-}
-
 .row{
-    margin-left:10px;
+    margin-left:60px;
 }
 
 .col-md-3{
     margin-top:30px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
-.footer{
-    margin-top: 30px;
-    margin-bottom: 30px;
+img{
+    width:400px;
 }
 
 .titel>p{
@@ -80,4 +66,9 @@ embed{
 
 .text{
     text-align: center;
+}
+
+.dt{
+    text-align: center;
+    margin-top: 20px;
 }

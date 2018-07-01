@@ -119,6 +119,13 @@ img{
     margin-bottom: 30px;
 }
 
+.icon{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
 /* @keyframes move{
     0%{
         opacity: 0;
