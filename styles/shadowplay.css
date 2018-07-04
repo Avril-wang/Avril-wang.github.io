@@ -46,7 +46,11 @@ p{
 }
 
 img{
-    width:400px;
+    display: block;
+    position: middle;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .titel>p{

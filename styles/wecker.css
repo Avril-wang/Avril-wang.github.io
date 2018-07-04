@@ -10,8 +10,14 @@ h1{
 }
 
 h3{
-    font: normal 30px "helvetica Neue", sans-serif;
+    font: normal 23px "Helvetica Neue", sans-serif;
     color: #606060;
+    text-align: center;
+}
+
+h4{
+    font: normal 13px "Helvetica Neue", sans-serif;
+    color: #929292;
     text-align: center;
 }
 
@@ -48,4 +54,23 @@ img{
 .footer{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.titel>p{
+    margin-top: 25px;
+    text-align: left;
+    line-height: 17.5px;
+    font-size: 1.4rem;
+    color: #929292;
+    /* word-spacing:1px;
+    letter-spacing: 0.2px; */
+}
+
+.titel{
+    margin: 0 auto;
+    width: 750px;
+}
+
+.text{
+    text-align: center;
 }
