@@ -76,7 +76,7 @@ img{
 
 .zwei svg{
     display:none;
-    position: absolute;
+    position:absolute;
     top: 48%;
     left: 51.5%;
 }
@@ -114,7 +114,7 @@ img{
 
 .erst svg{
     display:none;
-    position: absolute;
+    position:absolute;
     top: 33%;
     left: 52%;
 }
@@ -125,7 +125,7 @@ img{
 
 .vier svg{
     display:none;
-    position: absolute;
+    position:absolute;
     top: 35%;
     right: 46%;
 }
@@ -136,7 +136,7 @@ img{
 
 .drei svg{
     display:none;
-    position: absolute;
+    position:absolute;
     top: 48.5%;
     right: 46%;
 }
@@ -153,40 +153,11 @@ img{
     font-size: 25px;
 }
 
-/* @keyframes move{
-    0%{
-        opacity: 0;
-        transform:translateX(-100px) translateY(0px);
-    }
-    10%{
-        opacity: 1;
-        transform:translateX(-100px) translateY(0px);
-    }
-    30%{
-        opacity: 1;
-        transform: translateX(-130px) translateY(230px) ;
-    }
-    60%{
-        opacity: 1;
-        transform: translateX(-630px) translateY(0px) ;
-    }
-    90%{
-        opacity: 1;
-        transform: translateX(-500px) translateY(-150px);
-    }
-    100%{
-        opacity: 0;
-        transform: translateX(-500px) translateY(-150px);
-    }
-}
-
-.avatar{
-    animation: move 14s infinite ease-in-out;
-    animation-delay: 30s; 
-    transform-origin:50% 150px;
-} */
-
-#chart{
-   margin-left: 190px;
+#svg1{
+    margin-left: 300px;
+    fill:rgba(76, 247, 247, 0.26);
+    stroke: rgba(95, 250, 250, 0.24);
+    width:700px;
+    height:320px;
 }
   

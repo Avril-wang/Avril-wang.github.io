@@ -1,6 +1,4 @@
-body{
-    background-size: 200%;
-}
+
 
 h1{
     font: lighter 40px "Helvetica Neue", sans-serif;
@@ -80,4 +78,108 @@ embed{
 
 .text{
     text-align: center;
+}
+
+.xiangao>img {
+    width: 950px;
+    margin-bottom: 0px;
+}
+
+body{
+    margin:0;
+    padding:0;
+ /*for箭头样式*/
+}
+
+.ad{
+    margin: auto;
+    width:50%;
+    width: 750px;
+    height: 500px;
+    position: relative;
+    
+
+}
+.ad .list{
+    width: 750px;
+    height: 500px;
+    text-align: center;
+}
+
+
+.ad .list img{
+    display: block;
+    float: left;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity 1.5s;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    /* 如果不需要兼容IE9，直接用L26-L30和L36-L40代码来实现透明度渐变即可，否则用L */
+}
+/* 选中图片样式 */
+.ad .list .selected{
+    z-index: 1;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transition: opacity 1.5s;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+}
+.ad .btn{
+    position: absolute;
+    bottom: 5px;
+    left: 300px;
+    text-align: center;
+    z-index: 2;
+}
+.ad .btn span{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-left: 6px;
+    background-color: rgba(12, 12, 12, 0.393);
+    border-radius: 50%;
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* 选中按钮样式 */
+.ad .btn .on{
+    background-color: rgba(0, 0, 0, 0.548);
+    opacity: 0.8;
+    color: rgba(27, 27, 27, 0.509);
+}
+.ad .arrow{
+    display: block;
+    width: 30px;
+    text-decoration: none;
+    background-color: #000;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 200px;
+    color: #fff;
+    opacity: 0;
+    z-index: 2;
+}
+.ad:hover .arrow{
+    opacity: 0.5;
+}
+.ad .arrow:hover{
+    opacity: 1;
+}
+.ad #prev{
+    left: 5px;
+}
+.ad #next{
+    right: 5px;
+}
+.clearfix:after{
+    content:" ";
+    display:table;
+    clear:both;
 }
