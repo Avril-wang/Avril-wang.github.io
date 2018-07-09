@@ -76,3 +76,11 @@ img{
     text-align: center;
     margin-top: 20px;
 }
+
+.shadow2>img{
+    display: block;
+    position: middle;
+    width: 880px;
+    margin: 0 auto;
+    margin-top: 20px;   
+}
