@@ -3,20 +3,20 @@ body{
 }
 
 h1{
-    font: lighter 40px "Helvetica Neue", sans-serif;
+    font: lighter 40px "Quicksand", sans-serif;
     color: #606060;
     text-align: center;
     top: 260px;
 }
 
 h3{
-    font: normal 23px "Helvetica Neue", sans-serif;
+    font: normal 23px "Quicksand", sans-serif;
     color: #606060;
     text-align: center;
 }
 
 h4{
-    font: normal 13px "Helvetica Neue", sans-serif;
+    font: normal 15px "Quicksand", sans-serif;
     color: #929292;
     text-align: center;
 }
@@ -24,7 +24,7 @@ h4{
 p{
     text-align: center;
     color: #606060;
-    font: normal 13px "Helvetica Neue", sans-serif;
+    font: normal 15px "Quicksand", sans-serif;
     margin-top: 10px;
 }
 
@@ -55,9 +55,9 @@ img{
 
 .titel>p{
     margin-top: 25px;
-    text-align: left;
-    line-height: 17.5px;
-    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 20px;
+    font: 25px;
     color: #929292;
     /* word-spacing:1px;
     letter-spacing: 0.2px; */

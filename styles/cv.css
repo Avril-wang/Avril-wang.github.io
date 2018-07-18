@@ -6,7 +6,8 @@ body{
 
 
 h1{
-    font: lighter 40px "Helvetica Neue", sans-serif;
+    font: 40px "Quicksand", sans-serif;
+    font-style: lighter;
     color: #606060;
     text-align: center;
     top: 260px;
@@ -15,7 +16,7 @@ h1{
 p{
     text-align: center;
     color: #606060;
-    font: normal 13px "Helvetica Neue", sans-serif;
+    font: normal 15px "Quicksand", sans-serif;
     margin-top: 10px;
 }
 
@@ -60,10 +61,10 @@ img{
 }
 
 .fourth{
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 24%;
-    left: 21%;
+    left: 20%;
 }
 
 .fas{
@@ -161,7 +162,7 @@ img{
     height:320px;
 }
 
-.mytooltip {
+/* .mytooltip {
     position:absolute;
     text-align: center;
     width: 200px;
@@ -172,4 +173,15 @@ img{
     padding: 6px 12px;
     z-index:3;
   }
-  
+   */
+  .cv>p{
+    text-align: left;
+    color: #606060;
+    font: normal 15px "Quicksand", sans-serif;
+    margin-top: 10px;
+ }
+
+ .cv{
+     margin: auto;
+     margin-left: 15%;
+ }
