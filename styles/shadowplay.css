@@ -84,3 +84,18 @@ img{
     margin: 0 auto;
     margin-top: 20px;   
 }
+
+.icon{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.shadow3>img{
+    display: block;
+    position: middle;
+    width: 925px;
+    margin: 0 auto;
+    margin-top: 20px;  
+    margin-left: 17.1%; 
+}
